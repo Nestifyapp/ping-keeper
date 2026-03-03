@@ -4,9 +4,9 @@ from datetime import datetime
 
 # Add your endpoints here
 ENDPOINTS = [
-    "https://your-backend-1.onrender.com/health",
-    "https://your-backend-2.onrender.com/",
-    "https://your-app.vercel.app/",
+    "https://bluedome.onrender.com",
+    "https://equity-payments-production.up.railway.app",
+    "https://mpesa-sdk-backend.onrender.com",
 ]
 
 TIMEOUT_SECONDS = 10

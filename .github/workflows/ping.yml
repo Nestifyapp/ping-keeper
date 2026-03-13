@@ -2,8 +2,8 @@ name: Keep Services Warm
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # #
-  workflow_dispatch:        # allows manual run
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
   ping:
@@ -24,4 +24,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run ping script
-        run: python ping.py
+        env:
+          HEALTH_TOKEN: ${{ secrets.HEALTH_TOKEN }}
+        run: |
+          echo "Starting warm-up job at $(date -u)"
+          python ping.py
+          echo "Finished warm-up job at $(date -u)"

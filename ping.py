@@ -29,7 +29,7 @@ ENDPOINTS = [
     },
     {
         "name": "jemmy-coaching",
-        "url": "https://jemmy-coaching-and-leadership.web.app/health",
+        "url": "https://jemmy-coaching-and-leadership.onrender.com/health",
         "enabled": True,
     },
 ]

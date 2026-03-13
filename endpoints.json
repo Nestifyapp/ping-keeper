@@ -1,0 +1,22 @@
+[
+  {
+    "name": "bluedome",
+    "url": "https://bluedome.onrender.com/health",
+    "enabled": true
+  },
+  {
+    "name": "equity-payments",
+    "url": "https://equity-payments-production.up.railway.app/health",
+    "enabled": true
+  },
+  {
+    "name": "mpesa-sdk-backend",
+    "url": "https://mpesa-sdk-backend.onrender.com/health",
+    "enabled": true
+  },
+  {
+    "name": "jemmy-coaching",
+    "url": "https://jemmy-coaching-and-leadership.onrender.com/health",
+    "enabled": true
+  }
+]
